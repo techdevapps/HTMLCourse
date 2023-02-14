@@ -51,6 +51,7 @@ HTML5 introduced several new tags for multimedia content, making it easy to embe
 <audio src="path/to/audio.mp3" controls></audio>
 <video src="path/to/video.mp4" controls></video>
 ```
+
 The src attribute specifies the URL of the audio or video file, while the controls attribute adds basic controls for playing, pausing, and seeking through the media.
 
 Canvas 🎨
@@ -59,6 +60,7 @@ The `<canvas>` tag provides a way to draw graphics and animations using JavaScri
 ```
 <canvas id="myCanvas" width="200" height="100"></canvas>
 ```
+
 You can then use JavaScript to manipulate the canvas and draw shapes, lines, and text.
 
 SVG 🎭
@@ -69,4 +71,55 @@ The `<svg>` tag is used to define vector graphics on a web page. SVG images can 
   <rect x="10" y="10" width="80" height="80" fill="red" />
 </svg>
 ```
+
 In this example, we're using the `<rect>` tag to draw a rectangle inside the `<svg>` tag. The `x` and `y` attributes define the position of the rectangle, while the width and height attributes define its size.
+
+Below is the full HTML code, including all the HTML elements we covered
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Web Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>My Article</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ante vitae felis lobortis auctor.</p>
+        <p>Etiam vel lectus eu ex volutpat pulvinar at quis mauris. Aenean maximus volutpat tortor vel gravida.</p>
+      </article>
+      <aside>
+        <h2>My Sidebar</h2>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Web Page</p>
+    </footer>
+    <audio src="path/to/audio.mp3" controls></audio>
+    <video src="path/to/video.mp4" controls></video>
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    <svg width="100" height="100">
+      <rect x="10" y="10" width="80" height="80" fill="red" />
+    </svg>
+  </body>
+</html>
+
+```
+
+replace the content of index.html file with above code, and click `run` and see the result.
