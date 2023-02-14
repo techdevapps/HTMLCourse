@@ -1,4 +1,4 @@
-# HTML Tags Chapter 🏷️
+# HTML Tags 🏷️
 
 Congratulations on making it this far! You now have a solid understanding of some of the most common HTML elements. 🎉
 
