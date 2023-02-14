@@ -1,4 +1,4 @@
-👋 Welcome to the world of HTML elements! 🌎
+# 👋 Welcome to the world of HTML elements! 🌎
 
 HTML elements are like 🏗️ building blocks 🏗️ that make up a web page. Each block has a beginning and an end, and they're called opening and closing tags.
 
