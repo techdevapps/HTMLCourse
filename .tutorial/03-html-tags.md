@@ -76,7 +76,7 @@ In this example, we're using the `<rect>` tag to draw a rectangle inside the `<s
 
 Below is the full HTML code, including all the HTML elements we covered
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
