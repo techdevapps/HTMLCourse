@@ -117,6 +117,10 @@ Below is the full HTML code, including all the HTML elements we covered
     <svg width="100" height="100">
       <rect x="10" y="10" width="80" height="80" fill="red" />
     </svg>
+    <!-- Write table betwwen table start and table end comments -->
+    <!--table start-->
+     
+    <!--table end--> 
   </body>
 </html>
 
